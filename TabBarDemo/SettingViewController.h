@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SettingViewController.h
 //  TabBarDemo
 //
 //  Created by Yinan on 15/10/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SettingViewController : UIViewController
 
 @end
-

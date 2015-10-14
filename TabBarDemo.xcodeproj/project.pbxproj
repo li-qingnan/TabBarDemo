@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		FDE2025D1BCE433500B6D331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE2025C1BCE433500B6D331 /* main.m */; };
 		FDE202601BCE433500B6D331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE2025F1BCE433500B6D331 /* AppDelegate.m */; };
-		FDE202631BCE433500B6D331 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE202621BCE433500B6D331 /* ViewController.m */; };
-		FDE202661BCE433500B6D331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE202641BCE433500B6D331 /* Main.storyboard */; };
 		FDE202681BCE433500B6D331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE202671BCE433500B6D331 /* Assets.xcassets */; };
 		FDE2026B1BCE433500B6D331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE202691BCE433500B6D331 /* LaunchScreen.storyboard */; };
 		FDE202761BCE433500B6D331 /* TabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE202751BCE433500B6D331 /* TabBarDemoTests.m */; };
 		FDE202811BCE433500B6D331 /* TabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE202801BCE433500B6D331 /* TabBarDemoUITests.m */; };
+		FDE202911BCE43BB00B6D331 /* BaseTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE2028F1BCE43BB00B6D331 /* BaseTabBarVC.m */; settings = {ASSET_TAGS = (); }; };
+		FDE202921BCE43BB00B6D331 /* BaseTabBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE202901BCE43BB00B6D331 /* BaseTabBarVC.xib */; settings = {ASSET_TAGS = (); }; };
+		FDE202961BCE449100B6D331 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE202941BCE449100B6D331 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FDE202971BCE449100B6D331 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE202951BCE449100B6D331 /* HomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FDE2029B1BCE44A200B6D331 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE202991BCE44A200B6D331 /* SettingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FDE2029C1BCE44A200B6D331 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE2029A1BCE44A200B6D331 /* SettingViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		FDE2025C1BCE433500B6D331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDE2025E1BCE433500B6D331 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDE2025F1BCE433500B6D331 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDE202611BCE433500B6D331 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDE202621BCE433500B6D331 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FDE202651BCE433500B6D331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDE202671BCE433500B6D331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDE2026A1BCE433500B6D331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDE2026C1BCE433500B6D331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,15 @@
 		FDE2027C1BCE433500B6D331 /* TabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE202801BCE433500B6D331 /* TabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarDemoUITests.m; sourceTree = "<group>"; };
 		FDE202821BCE433500B6D331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE2028E1BCE43BB00B6D331 /* BaseTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarVC.h; sourceTree = "<group>"; };
+		FDE2028F1BCE43BB00B6D331 /* BaseTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarVC.m; sourceTree = "<group>"; };
+		FDE202901BCE43BB00B6D331 /* BaseTabBarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTabBarVC.xib; sourceTree = "<group>"; };
+		FDE202931BCE449100B6D331 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FDE202941BCE449100B6D331 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FDE202951BCE449100B6D331 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FDE202981BCE44A200B6D331 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		FDE202991BCE44A200B6D331 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		FDE2029A1BCE44A200B6D331 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +113,15 @@
 			children = (
 				FDE2025E1BCE433500B6D331 /* AppDelegate.h */,
 				FDE2025F1BCE433500B6D331 /* AppDelegate.m */,
-				FDE202611BCE433500B6D331 /* ViewController.h */,
-				FDE202621BCE433500B6D331 /* ViewController.m */,
-				FDE202641BCE433500B6D331 /* Main.storyboard */,
+				FDE2028E1BCE43BB00B6D331 /* BaseTabBarVC.h */,
+				FDE2028F1BCE43BB00B6D331 /* BaseTabBarVC.m */,
+				FDE202901BCE43BB00B6D331 /* BaseTabBarVC.xib */,
+				FDE202931BCE449100B6D331 /* HomeViewController.h */,
+				FDE202941BCE449100B6D331 /* HomeViewController.m */,
+				FDE202951BCE449100B6D331 /* HomeViewController.xib */,
+				FDE202981BCE44A200B6D331 /* SettingViewController.h */,
+				FDE202991BCE44A200B6D331 /* SettingViewController.m */,
+				FDE2029A1BCE44A200B6D331 /* SettingViewController.xib */,
 				FDE202671BCE433500B6D331 /* Assets.xcassets */,
 				FDE202691BCE433500B6D331 /* LaunchScreen.storyboard */,
 				FDE2026C1BCE433500B6D331 /* Info.plist */,
@@ -244,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE2026B1BCE433500B6D331 /* LaunchScreen.storyboard in Resources */,
+				FDE2029C1BCE44A200B6D331 /* SettingViewController.xib in Resources */,
+				FDE202921BCE43BB00B6D331 /* BaseTabBarVC.xib in Resources */,
 				FDE202681BCE433500B6D331 /* Assets.xcassets in Resources */,
-				FDE202661BCE433500B6D331 /* Main.storyboard in Resources */,
+				FDE202971BCE449100B6D331 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE202631BCE433500B6D331 /* ViewController.m in Sources */,
 				FDE202601BCE433500B6D331 /* AppDelegate.m in Sources */,
+				FDE202911BCE43BB00B6D331 /* BaseTabBarVC.m in Sources */,
 				FDE2025D1BCE433500B6D331 /* main.m in Sources */,
+				FDE202961BCE449100B6D331 /* HomeViewController.m in Sources */,
+				FDE2029B1BCE44A200B6D331 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FDE202641BCE433500B6D331 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDE202651BCE433500B6D331 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDE202691BCE433500B6D331 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TabBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yinan.TabBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TabBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yinan.TabBarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
